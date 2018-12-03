@@ -1,29 +1,42 @@
 
 	.header {
-		background-color: black;
+		background-color: rgb(23, 23, 24);
 		height: 70pt;
+		vertical-align: middle;
+		line-height: 70pt;
+		position: relative;
 	}
 	.header .logo {
-		
-		background-color: green;
+		background-color: rgb(19, 61, 59);
 		width: 100pt;
 		height: 30pt;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
 	}
 	.header .HKBD {
 		margin-left: 10pt;
 		background-color: white;
 		width: 130pt;
 		height: 30pt;
+		display: inline-block;
+		position: absolute;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		left: 105pt;
 	}
 	.header-nav {
-		background-color: gray;
+		background-color: rgb(32, 35, 35);
 		height: 24pt;
 		text-align: center;
 		line-height: 24pt;
 	}
 	.header-nav a {
 		color: white;
-		padding: 0 10;
+		padding: 0pt 10pt 0pt 10pt;
 	}
 	.header-contact {
 		margin-left: 10pt;
